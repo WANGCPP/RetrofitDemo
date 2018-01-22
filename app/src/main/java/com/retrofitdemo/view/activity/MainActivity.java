@@ -85,6 +85,6 @@ public class MainActivity extends AppCompatActivity implements IMainView {
 
     @Override
     public void updateDownloadProgress(int progress) {
-        tvCenter.setText("progress == " + progress + "%");
+        tvCenter.setText("progress == " + progress + " %");
     }
 }
